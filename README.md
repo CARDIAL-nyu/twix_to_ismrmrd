@@ -1,6 +1,6 @@
 # Quickstart
 
-1. Create a file named `twix_to_ismrmrd` with the `docker run` command as below:
+1. Create a file named `twix_to_ismrmrd` with the `docker run` command as below or just download the [`twix_to_ismrmrd`](https://github.com/CARDIAL-nyu/twix_to_ismrmrd/raw/main/twix_to_ismrmrd) file:
 
 ```bash
 $ cat >twix_to_ismrmrd <<END_OF_SCRIPT
