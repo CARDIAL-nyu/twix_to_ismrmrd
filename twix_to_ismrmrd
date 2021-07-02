@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run   --interactive --tty --rm   --volume "/Users/timothysphan/Dropbox/HEART_MRI/Dockerized_MRI_Tools/ISMRMRD":/project   --workdir /project   --user 501:20   cardialnyu/twix_to_ismrmrd ""
