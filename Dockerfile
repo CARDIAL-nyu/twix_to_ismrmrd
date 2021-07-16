@@ -23,7 +23,7 @@ tar zxvf v1.5.0.tar.gz && cd ismrmrd-1.5.0 && mkdir build && cd build && cmake .
 make && make install
 
 # Sym-linking HDF5 shared objects
-RUN cd /usr/lib/x86_64-linux-gnu && ln -s libhdf5_serial.so.103 libhdf5.so && \
+RUN cd /usr/lib/$(arch)-linux-gnu && ln -s libhdf5_serial.so.103 libhdf5.so && \
 ln -s libhdf5_serial_hl.so.100 libhdf5_hl.so && ln -s libhdf5_serial.so.103 libhdf5.so.103
 
 WORKDIR /opt/code/siemens_to_ismrmrd

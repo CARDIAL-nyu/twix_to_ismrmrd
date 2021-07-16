@@ -10,7 +10,7 @@ docker run \
   --volume "$PWD":/project \
   --workdir /project \
   --user $(id -u):$(id -g) \
-  cardialnyu/twix_to_ismrmrd "$@"
+  cardialnyu/twix_to_ismrmrd:arm64 "$@"
 END_OF_SCRIPT
 ```
 
